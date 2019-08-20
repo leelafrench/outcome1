@@ -1,0 +1,36 @@
+body{
+	background-color: #eeeeee;
+}
+
+
+#head{
+	background-color: pink;
+	padding: 10px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	width:1300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1, h2{ color:blue; }
+
+h3{ color:green; }
+
+
+#one{
+	width:450px;
+	float:left;
+	padding:10px;
+
+}
+
+#two {
+	width:700px;
+	float:right;
+	padding:10px;
+}
+
+ul li{
+	list-style-type:none;
+}
+
