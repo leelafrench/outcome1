@@ -1,10 +1,15 @@
 body{
-	background-color: #eeeeee;
+	
+  background-image: url(https://res.cloudinary.com/leelafrench/image/upload/v1567571080/66_mzbkyz.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
 }
 
 
 #head{
-	background-color: pink;
+	
 	padding: 10px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	width:1300px;
@@ -12,9 +17,32 @@ body{
 	margin-right: auto;
 }
 
-h1, h2{ color:blue; }
+#pop {
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); 
 
-h3{ color:green; }
+}
+
+#pop h1 {
+  margin: 1%;
+  font-weight: bold;
+  color: #000555;
+}
+
+#pip {
+  background:  repeat;
+  border: 2px;
+  width:700px;
+}
+
+
+h2{ 
+	color:#4d0000; }
+
+h3{ color:#f18973; }
 
 
 #one{
@@ -30,7 +58,14 @@ h3{ color:green; }
 	padding:10px;
 }
 
+#three{
+	width:450px;
+	float:left;
+	padding:10px;
+}
+
 ul li{
 	list-style-type:none;
 }
 
+div
